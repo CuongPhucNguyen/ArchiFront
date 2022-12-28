@@ -1,0 +1,27 @@
+.bg-green{
+    padding: 5px;
+    background-color: #d8e4dc;
+    width: 15%;
+    
+}
+.center-items{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-bar{
+    width: 75%;
+}
+
+.bg-grey{
+    background-color: lightgray;
+}
+
+.categories-martix li {
+    width: 25%;
+}
+
+.small-title-bar{
+    width: 72%;
+}

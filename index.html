@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Add index.scss colours-->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container text-center mw-100">
+
+
+
+        <!--Create a navigation bar with full width length-->
+        <div class="row fixed-top">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+
+                            <!--Add avatar-->
+                            <img src="https://picsum.photos/50/50" class="rounded-circle px-3" alt="...">
+
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+        <br>
+        <br>
+
+
+        <!--Create an image carousel with height of 100px-->
+        <div class="row center-items">
+            <div class="col-12 w-50">
+                <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="https://picsum.photos/200/100" class="d-block w-100 rounded" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/200/100" class="d-block w-100 rounded" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/200/100" class="d-block w-100 rounded" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <br>
+    <br>
+    <div class="containe center-items" style="text-align: center;">
+        <div class="rounded bg-grey small-title-bar">
+            Categories
+        </div>
+    </div>
+    <!--Create horizontal list of for sale categories with centered icons-->
+    <div class="container mw-100 w-100" style="display: flex; justify-content: center;">
+        <div class="row mw-100 w-100">
+            <div class="col-12 mw-100 w-100">
+                <ul class="list-group mw-100 w-100 list-group-horizontal categories-martix center-items">
+                    <li class="list-group-item text-center">
+                        <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                        <br>
+                        <br>
+                        <h5>General goods</h5>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                        <br>
+                        <br>
+                        <h5>Electronics</h5>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                        <br>
+                        <br>
+                        <h5>Household items</h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    
+    <div class="containe center-items" style="text-align: center;">
+        <div class="rounded bg-grey title-bar">
+            Suggested items
+        </div>
+    </div>
+    
+    
+    <!--5x10 Matrix of items with thumbnail-->
+    <div class="center-items mw-100 w-100">
+        <div class="container mw-100 w-100 center-items">
+            <div class="row mw-100 w-100">
+                <div class="col-12 mw-100 w-100 d-flex justify-content-center">
+                    <div class="row row-cols-5 mw-100 d-flex justify-content-center w-100">
+                        <div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div>
+                        <div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--5x10 Matrix of items with thumbnail-->
+    <div class="center-items mw-100 w-100">
+        <div class="container mw-100 w-100 center-items">
+            <div class="row mw-100 w-100">
+                <div class="col-12 mw-100 w-100 d-flex justify-content-center">
+                    <div class="row row-cols-5 mw-100 d-flex justify-content-center w-100">
+                        <div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div>
+                        <div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--5x10 Matrix of items with thumbnail-->
+    <div class="center-items mw-100 w-100">
+        <div class="container mw-100 w-100 center-items">
+            <div class="row mw-100 w-100">
+                <div class="col-12 mw-100 w-100 d-flex justify-content-center">
+                    <div class="row row-cols-5 mw-100 d-flex justify-content-center w-100">
+                        <div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div>
+                        <div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div><div class="col m-1 grid-background bg-green rounded" style="text-align: center;">
+
+                            <img src="https://picsum.photos/50/50" class="rounded-circle" alt="...">
+                            <br>
+                            <br>
+                            <h5>Item 1</h5>
+                            <p>$100</p>
+                            <p>Category</p>
+                            <p>Quantity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
